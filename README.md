@@ -56,6 +56,7 @@
 : 사용자는 구매 경험에 대한 평가를 추가할 수 있다.
 
 ## ERD 
+![Uploading SmartSelectImage_2024-01-31-19-58-37.png…]()
 
 ## Trouble Shooting
 
