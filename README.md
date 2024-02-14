@@ -40,7 +40,7 @@
 - 구매자 평가 추가
 
 ## ERD
-![SmartSelectImage_2024-02-02-01-59-07.png](src%2Fimage%2FSmartSelectImage_2024-02-02-01-59-07.png)
+![ERD.png](src%2Fimage%2FERD.png)
 
 ## Trouble Shooting
 
