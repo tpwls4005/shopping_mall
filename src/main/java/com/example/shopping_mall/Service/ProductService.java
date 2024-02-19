@@ -28,6 +28,7 @@ public class ProductService {
   public void deleteProduct(Long id) {
     productRepository.deleteById(id);
   }
+
   public Product updateProduct(Long id, Product updatedProduct) {
     Product existingProduct = productRepository.findById(id).orElse(null);
     if (existingProduct == null) {
@@ -39,5 +40,4 @@ public class ProductService {
     existingProduct.setImageUrl(updatedProduct.getImageUrl());
     return productRepository.save(existingProduct);
   }
-
 }

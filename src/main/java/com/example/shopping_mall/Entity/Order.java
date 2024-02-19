@@ -1,5 +1,6 @@
 package com.example.shopping_mall.Entity;
 
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -11,13 +12,11 @@ import jakarta.persistence.Temporal;
 import jakarta.persistence.TemporalType;
 import java.math.BigDecimal;
 import java.util.Date;
-import javax.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
@@ -29,7 +28,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @NoArgsConstructor
 @ToString
 public class Order {
-  @Id
+  @javax.persistence.Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 

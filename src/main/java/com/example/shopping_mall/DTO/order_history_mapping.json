@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "properties": {
+      "user_id": {"type": "integer"},
+      "order_date": {"type": "date"},
+      "payment_method": {"type": "keyword"},
+      "products": {
+        "type": "nested",
+        "properties": {
+          "product_id": {"type": "integer"},
+          "name": {"type": "text"},
+          "price": {"type": "integer"},
+          "unit_price": {"type": "float"}
+        }
+      }
+    }
+  }
+}
